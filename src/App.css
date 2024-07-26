@@ -1,0 +1,22 @@
+.parent{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  font-size: large;
+  background: rgb(111, 111, 226);
+  list-style-type: none;
+  height: 800px;
+}
+li{
+  list-style-type: none;
+  cursor: pointer;
+}
+.child{
+  display: flex;
+  align-items: center;
+  
+}
+span{
+  margin-left: 10px;
+}
